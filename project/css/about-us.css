@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-image: url('https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg')
+    color: white;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+@keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        } 
+    } 
